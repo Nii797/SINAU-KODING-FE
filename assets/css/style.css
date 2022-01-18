@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+}
+
+.sidebar {
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 100%), #292D32;
+    background-blend-mode: soft-light, normal;
+    width: 100%;
+    height: 66px;
+    /* position: fixed; */
+}
+.sidebar .frame {
+    /* background: green; */
+    position: relative;
+    width: 538px;
+    height: 35px;
+    left: 86px;
+    top: 13px;
+    display: flex;
+}
+.sidebar .frame .image {
+    background: url('/assets/img/logo.png');
+    position: static;
+    width: 110px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 5px;
+}
+
+.sidebar .frame .image {
+    width: 90px;
+    height: 35px;
+}
+
+.sidebar .frame ul li{
+    /* background-color: red; */
+    width: 60px;
+    height: 24px;
+    left: 57px;
+    top: 0px;
+    font-family: 'Roboto', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 60px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #D7D7D7;
+    display: flex;
+    float: left;
+    position: relative;
+    transition: 0.3s;
+}
+.sidebar .frame ul li:hover {
+    border-bottom: 3px solid rgb(6, 189, 221);
+}
+
+.section {
+    background: rgb(218, 218, 218);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.section .frame-section {
+    background-color: rgb(243, 243, 243);
+    width: 500px;
+    margin: 0px 50px 50px 5px;
+    left: 86px;
+    top: 13px;
+    box-shadow: 2px 2px 5px #000000;
+    align-items: center;
+    position: relative;
+}
+.section .frame-section img {
+    width: 100%;
+}
+.section .frame-section p {
+    padding: 20px;
+}
+
+/* footer */
+.footer {
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 100%), #292D32;
+    background-blend-mode: soft-light, normal;
+    width: 100%;
+    height: 66px;
+}
+.footer .frame {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 1440px;
+    height: 35px;
+    left: 86px;
+    top: 13px;
+}
+.footer .frame p {
+    position: static;
+    width: 216px;
+    height: 12px;
+    left: calc(50% - 216px/2);
+    top: calc(50% - 12px/2);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D7D7D7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+.footer .frame .join-us p{
+    position: absolute;
+    width: 94px;
+    left: 1255px;
+    top: calc(50% - 12px/2);
+}
+.footer .frame .join-us .circle{
+    /* background: green; */
+    border: 1px solid white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1335px;
+    top: 1px;
+    border-radius: 50px;
+}
+.footer .frame .join-us .circle .circle-tweet {
+    background-color: white;
+    /* position: absolute; */
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    margin-top: 3px;
+    border-radius: 50px;
+}
+.footer .frame .join-us .circle .circle-tweet i {
+    color: black;
+    line-height: 24px;
+}
