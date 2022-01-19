@@ -34,12 +34,20 @@ header li a {
     font-family: 'Roboto';
     font-weight: 700;
     text-transform: uppercase;
-    display: block;
+    display: block; 
     color: #D7D7D7;
     text-align: center;
     padding: 13px 16px;
     text-decoration: none;
 }
+header li a:active {
+    border-bottom: rgb(176, 176, 253) 2px solid;
+    color: #D7D7D7;
+}
+header li a:hover {
+    border-bottom: rgb(176, 176, 253) 2px solid;
+    color: #D7D7D7;
+} 
 
 .button {
     background-color: #292D32;
@@ -61,7 +69,7 @@ header li a {
     transition: 0.9s;
 }
 .button:hover {
-    background-color: #4CAF50;
+    background-color: #683ba4;
     color: #D7D7D7;
 }
 
@@ -131,7 +139,7 @@ footer .copyright {
     /* background-color: white; */
     width: 270px;
     height: 12px;
-    margin: 27px 0px 27px 27px;
+    margin: 27px 0px 27px 55px;
     float: left;
 }
 footer .copyright p{
