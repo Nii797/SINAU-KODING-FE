@@ -7,7 +7,6 @@ body {
     background: #292D32;
 }
 
-
 header {
     background: linear-gradient(315deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 100%), #292D32;
     background-blend-mode: soft-light, normal;
@@ -22,7 +21,7 @@ header img {
 }
 header ul {
     list-style-type: none;
-    margin: 0px 0px 0px 313px;
+    margin: 0px 0px 0px 250px;
     padding: 9px 0px;
     background-color: #292D32;
 }
@@ -60,7 +59,6 @@ header li a:hover {
 
     text-transform: uppercase;
     text-decoration: none;
-    margin: 8px 48px 8px 48px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -75,16 +73,19 @@ header li a:hover {
 
 .main .group1 {
     /* border: 1px blue solid; */
-    width: 1310px;
+    width: 1217px;
     height: 584px;
-    margin: auto;
-    /* position: absolute; */
+    position: absolute;
+    left: 85px;
+    top: 35px;
+    bottom: 10%;
+    /* margin: 0 auto; */
 }
 .main .group1 .word {
     /* border: 1px white solid; */
     width: 569px;
     height: 155px;
-    margin: 232px 774px 283px   0px;
+    margin: 232px 774px 283px 0px;
     float: left;
 }
 .main .group1 .word h2 {
@@ -97,7 +98,6 @@ header li a:hover {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    /* identical to box height, or 142% */
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #D7D7D7;
