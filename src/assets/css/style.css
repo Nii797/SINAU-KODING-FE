@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+}
+body {
+    background: #292D32;
+}
+
+/* Header */
+header {
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 100%), #292D32;
+    background-blend-mode: soft-light, normal;
+    width: 100%;
+    height: 66px;
+}
+header img {
+    width: 110px;
+    height: 35px;
+    margin: 13px 0px 18px 86px;
+    float: left;
+}
+header ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 250px;
+    padding: 9px 0px;
+    background-color: #292D32;
+}
+header ul li {
+    float: left;
+}
+header li a {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block; 
+    color: #D7D7D7;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+header li a:active {
+    border-bottom: rgb(176, 176, 253) 2px solid;
+    color: #D7D7D7;
+}
+header li a:hover {
+    border-bottom: rgb(176, 176, 253) 2px solid;
+    color: #D7D7D7;
+} 
+
+/* Button */
+.button {
+    background-color: #292D32;
+    box-shadow: -2px -2px 8px #474C54, 2px 2px 8px #17191C;
+    width: 150px;
+    height: 28px;
+    border-radius: 12px;
+    float: right;
+    margin: 1px 52px 21px 0px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #D7D7D7;
+    transition: 0.2s;
+}
+.button:hover {
+    background-color: #683ba4;
+    color: #D7D7D7;
+}
+
+/* Main untuk body atau isi */
+.main .group1 {
+    /* border: 1px blue solid; */
+    width: 1170px;
+    height: 584px;
+    position: absolute;
+    left: 85px;
+    top: 35px;
+    bottom: 10%;
+}
+.main .group1 .word {
+    /* border: 1px white solid; */
+    width: 569px;
+    height: 155px;
+    top: -35px;  
+    position: relative;
+    margin: 232px 774px 283px 0px;
+    float: left;
+    display: block;
+}
+.main .group1 .word h2 {
+    /* border: blue 1px solid; */
+    width: 569px;
+    height: 34px;
+    left: 97px;
+    top: 282px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #D7D7D7;
+}
+.main .group1 .word p {
+    /* border: 1px solid blue; */   
+    width: 493px;
+    height: 96px;
+    left: 97px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #D7D7D7;
+
+}
+.main .group1 .gambar {
+    /* border: 1px white solid; */
+    width: 584px;
+    display: block;
+    height: 584px;
+    margin-top: -675px;
+    float: right;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to bottom right, #000000, #292D32 80%);
+    background-blend-mode: soft-light, normal;
+    width: 100%;
+    height: 66px;
+    margin: 654px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    position: absolute;
+    bottom: 0;
+}
+footer .copyright {
+    /* background-color: white; */
+    width: 270px;
+    height: 12px;
+    margin: 27px 0px 27px 55px;
+    float: left;
+}
+footer .copyright p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    color: #D7D7D7;
+    text-transform: uppercase;
+}
+
+footer .join-and-tweet{
+    /* background-color: salmon; */
+    width: 216px;
+    height: 12px;
+    margin: 20px 91px 16px 0px;
+    float: right;
+}
+footer .join-and-tweet p {
+    width: 80px;
+    /* background-color: aqua; */
+    height: 12px;
+    top: 9px;
+    margin-left: 120px;
+    margin-top: 3px;
+    
+    /* untuk font */
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    size: 12px;
+    color: #D7D7D7;
+    text-transform: uppercase;
+}
+footer .join-and-tweet img {
+    width: 30px;
+    height: 30px;
+    margin-top: -17px;
+    float: right;
+}
