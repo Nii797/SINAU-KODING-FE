@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <div class="container">
         <header>
-            <a href="#"><img src="../assets/img/Sinau-Coding-1.png" alt="Logo"></a>
+            <router-link to="/"><img src="../assets/img/Sinau-Coding-1.png" alt="Logo"></router-link>
             <ul>
-                <li><a href="#" class="active">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
+                <li><router-link to="/" class="active">home</router-link></li>
+                <li><router-link to ="/about">about</router-link></li>
+                <li><router-link to="/contact">contact</router-link></li>
             </ul>
             <button class="button">join us</button>
         </header>
