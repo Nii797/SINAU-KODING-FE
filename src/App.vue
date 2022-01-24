@@ -11,4 +11,5 @@ export default {
 
 <style>
 @import 'assets/css/style.css';
+@import 'assets/css/stylelogin.css';
 </style>
