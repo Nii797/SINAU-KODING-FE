@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <header>
             <a href="#"><img src="../assets/img/Sinau-Coding-1.png" alt="Logo"></a>
             <ul>
@@ -33,3 +33,9 @@
         </footer>
     </div>
 </template>
+
+<script>
+export default {
+    
+}
+</script>
