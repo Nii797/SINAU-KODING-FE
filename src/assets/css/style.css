@@ -121,76 +121,33 @@ header li a:hover {
     color: #D7D7D7;
 
 }
-.main .group1 .gambar-form {
+.main .group1 .gambar {
     /* border: 1px white solid; */
     width: 584px;
     height: 584px;
     margin-top: -675px;
     float: right;
 }
-.main .group1 .gambar-form .formLogin {
+
+ .formlogin {
+    position: absolute;
     width: 450px;
     height: 425px;
     display: block;
     margin: 90px;
-    padding: 10px auto;
-
+    margin-left: 700px;
     background: #292D32;
+    /* background-color: red; */
     box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
     border-radius: 12px;
 }
-
-.main .group1 .gambar-form .formLogin .container {
-    /* justify-content: center;
-    background-color: red; */
-    padding: 20px;
+.formlogin .containerlogin {
+    position: absolute;
+}
+.formlogin .containerlogin img {
+    position: absolute;
 }
 
-.main .group1 .gambar-form .formLogin img {
-    margin: 20px 0px 10px 0px;
-}
-.main .group1 .gambar-form .formLogin .form-control label {
-    color: #D7D7D7;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-}
-.main .group1 .gambar-form .formLogin .form-control input {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 12px 20px;
-
-    position: static;
-    width: 360px;
-    height: 20px;
-    left: 0px;
-    top: 22px;
-
-    background: #292D32;
-    box-shadow: inset -8px -8px 10px #30343A, inset 8px 8px 10px #24262C;
-    border-radius: 8px;
-
-    color: #D7D7D7;
-    margin: 8px 0px;
-
-}
-.main .group1 .gambar-form .formLogin .container .btn {
-    width: 405px;
-    height: 40px;
-    left: 20px;
-    top: 390px;
-    margin-top: 20px;
-
-    background: #292D32;
-    color: #D7D7D7;
-    text-transform: uppercase;
-
-    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
-    border-radius: 8px;
-}
 
 
 /* Footer */
