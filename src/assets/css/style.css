@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    /* background-color: #292D32; */
 }
 body {
     background: #292D32;
@@ -256,4 +257,10 @@ footer .join-and-tweet img {
     height: 30px;
     margin-top: -17px;
     float: right;
+}
+
+
+/* ==================== */
+.total {
+    color: white;
 }
