@@ -1,3 +1,47 @@
-<template>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat veritatis sint voluptate ullam illo, quaerat vel minima adipisci aut quam neque fugit magnam tenetur quidem. Eveniet cupiditate, nobis, ullam id ad vitae voluptas reprehenderit et facere placeat expedita voluptatum fuga, quo sit tenetur ratione quos illum tempore laudantium officia!</p>
+<template>  
+
+    <div class="login">
+        <h1>Silahkan Login</h1>
+    </div>
+
 </template>
+
+<script>
+
+export default {
+    // data:function () {
+    //     return{
+    //         response:[],
+    //     }
+    // },
+    // methods: {
+    //     getData: async function () {
+    //         const response = await fetch("https://api.npms.io/v2/search?q=vue");      
+    //         const res = await response.json();
+    //         this.response = res.data;
+    //     },
+    //     mounted(){
+    //         this.getData()
+    //     },
+    // }
+
+    data () {
+        return {
+            response: []
+        }
+    },
+    
+    mounted(){
+        this.getData()
+    },
+    
+    methods: {
+        getData: async function () {
+            const response = await fetch("https://api.npms.io/v2/search?q=vue");      
+            const res = await response.json();
+            this.response = res.results;
+            console.log(this.response)
+        },
+    }
+}
+</script>

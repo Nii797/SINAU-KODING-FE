@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from '../view/Home';    
 import Login from '../view/Login';
-import Test from '../view/Test';
+import Data from '../view/Data';
 
 Vue.use(VueRouter);
 
@@ -18,9 +18,9 @@ const routes = [
         component: Login
     },
     {
-        path: '/test',
-        name: 'Test',
-        component: Test
+        path: '/data',
+        name: 'Data',
+        component: Data
     }
 ];
 

@@ -20,30 +20,18 @@
                     <p>{{ name }} {{ age }}</p>
         
                 </div>
-                <div class="gambar-form">
-                    <img v-if="clearImage === false" src="../assets/img/flatdesign 1.png" alt="Gambar">
-                    <form action="" class="formLogin">
-                        <div class="container">
-                            <center><img src="../assets/img/Sinau-Coding-1.png" alt="Logo"></center>
-                            <div class="form-control">
-                                <label for="username">Username</label><br>
-                                <input type="text" name="username" id="username">
-                            </div>
-                            <div class="form-control">
-                                <label for="username">Username</label><br>
-                                <input type="text" name="username" id="username">
-                            </div>
-                            <div class="form-control">
-                                <label for="username">Username</label><br>
-                                <input type="text" name="username" id="username">
-                            </div>
-                            <button class="btn">login</button>
-                        </div>    
-                    </form>
+                <div v-if="clearImage === false" class="gambar">
+                    <img src="../assets/img/flatdesign 1.png" alt="Gambar">
                 </div>
+                <div v-else class="formlogin">
+                    <form-login/>
+                    <div>
+                        <buttonSubmit/>
+                    </div>
+                </div>    
             </div>
         </main>
-        
+                
         <footer>
             <div class="copyright">
                 <p>sinau koding academy 2021 &copy;</p>
@@ -57,8 +45,15 @@
 </template>
 
 <script>
+import formLogin from "../components/FormLogin.vue";
+import buttonSubmit from "../components/buttonSubmit.vue";
 
     export default {
+        components: {
+            formLogin,
+            buttonSubmit
+        },
+
         data: function () {
             return {
                 name: 'Soni Hidayatulloh',
