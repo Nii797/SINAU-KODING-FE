@@ -4,6 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap"
+
 new Vue({
   router,
   render: h => h(App),
