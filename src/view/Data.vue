@@ -2,7 +2,7 @@
     <div class="data" style="color: white">
         <h3>Vue Data</h3>   
         <br>
-        <h3>Total : {{ response.lenght }}</h3>
+        <h3>Total : {{ this.responseTotal }}</h3>
         <br>
         <table border="1" class="table" style="color: white" width="500">
             <thead>
@@ -13,42 +13,39 @@
                 <td>Publisher</td>
             </thead>
             <tr v-for="item in response" v-bind:key="item.id">
-                <td>{{item.package.version}}</td>
+                <td>{{ item.package.version }}</td>
                 <td v-if="item.package.author">{{ item.package.author.name }}</td>
-                <td>{{item.package.version}}</td>
-                <td>{{item.package.description}}</td>
-                <td v-if="item.package.publisher">{{item.package.publisher.username}}</td>
+                <td v-else>-</td>
+                <td>{{ item.package.links.npm }}</td>
+                <td>{{ item.package.version }}</td>
+                <td>{{ item.package.description }}</td>
             </tr>
         </table>
     </div>
 </template>
 
 <script>
-import axios from 'axios'
+
 export default {
     
     data: function () {
         return {
             response: [],
+            responseTotal: '',
         }
     },
 
     methods: {
         getData: async function () {
             const response = await fetch('https://api.npms.io/v2/search?q=vue');
-            const res = await response.json();
-            this.response = res.results;
+            const data = await response.json();
+            this.response = data.results;
+            this.responseTotal = data.total;
         },
-
-        countData() {
-            axios.get('https://api.npms.io/v2/search?q=vue').then(({ data}) => (this.response = data))
-            console.log(this.response.length);
-            return this.response.length;
-        }
     },
 
     mounted() {
-        this.getData()
+        this.getData();
     },
 
 }
