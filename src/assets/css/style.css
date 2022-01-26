@@ -274,3 +274,26 @@ footer .join-and-tweet img {
 .card {
     border: 1px solid salmon;
 }
+
+.footer {
+    background: transparent;
+    width: 100%;
+    height: 66px;
+    margin: 654px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    position: absolute;
+    bottom: 0;   
+    box-shadow: 50px 50px 50px 50px #24262C;
+}
+.footer .paragraph-joinus {
+    /* background-color: red; */
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 450px;
+}
+.footer img {
+    /* background-color: red; */
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 516px;
+}

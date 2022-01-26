@@ -42,19 +42,19 @@
           </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <footer class="footer bg-trasparent">
           <div class="container">
-            <a class="navbar-brand mt-2" href="#">SINAU KODING ACAFDEMY &copy;</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mt-2" id="navbarScroll">
-              <form class="d-flex align-item-end">
-                <button class="btn btn-success btn-outline-success text-white" type="submit">Join Us</button>
-              </form>
+            <div class="row mt-2">
+              <div class="col-6 d-blok">
+                <p class="text-white mt-2">SINAU KODING ACADEMY &copy;</p>
+              </div>
+              <div class="col-6 d-blok">
+                <p class="paragraph-joinus text-white mt-2 d-block">JOIN US</p>
+                <img class="position-absolute" src="../assets/img/tweet.png" alt="tweet">
+              </div>
             </div>
           </div>
-        </nav>
+        </footer>
 
     </div>
 </template>
