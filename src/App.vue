@@ -10,6 +10,8 @@ export default {
 </script>
 
 <style>
+
 @import 'assets/css/style.css';
-@import 'assets/css/stylelogin.css';
+@import 'assets/css/styleversionbootstrap.css';
+
 </style>
