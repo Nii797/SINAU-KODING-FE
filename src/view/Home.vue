@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        <header>
+    <div class="">
+        <header class="header">
             <router-link to="/"><img src="../assets/img/Sinau-Coding-1.png" alt="Logo"></router-link>
             <ul>
                 <li><router-link to="/" class="active">home</router-link></li>
