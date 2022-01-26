@@ -274,6 +274,26 @@ footer .join-and-tweet img {
 .card {
     border: 1px solid salmon;
 }
+.collapse {
+    margin-left: 40px;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #D7D7D7;
+
+}
+
 .btn {
     width: 150px;
     height: 28px;
@@ -287,6 +307,8 @@ footer .join-and-tweet img {
 }
 .btn p {
     margin-top: -4px;
+    color: #D7D7D7;
+    text-transform: capitalize;
 }
 
 .footer {
