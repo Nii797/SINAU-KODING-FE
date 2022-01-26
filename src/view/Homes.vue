@@ -18,9 +18,9 @@
                   <a class="nav-link" href="#">Contact</a>
                 </li>
               </ul>
-              <form class="d-flex">
-                <button class="btn btn-success btn-outline-success text-white" type="submit">Join Us</button>
-              </form>
+
+              <button class="btn text-white" type="submit"><p>JOIN US</p></button>
+
             </div>
           </div>
         </nav>
@@ -33,7 +33,6 @@
                 <p class="lead text-white">Sinau Koding adalah Program Pelatihan Programer dengan materi yang relevan
                   pada kebutuhan industri saat ini. Materi yang ditawarkan diantaranya pemrograman website dan android
                   Lihat</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
               </div>
               <div class="col-6">
                 <img src="../assets/img/flatdesign 1.png" alt="Gambar">
@@ -42,7 +41,7 @@
           </div>
         </div>
 
-        <footer class="footer bg-trasparent">
+        <nav class="footer bg-trasparent">
           <div class="container">
             <div class="row mt-2">
               <div class="col-6 d-blok">
@@ -54,7 +53,7 @@
               </div>
             </div>
           </div>
-        </footer>
+        </nav>
 
     </div>
 </template>

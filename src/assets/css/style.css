@@ -274,6 +274,20 @@ footer .join-and-tweet img {
 .card {
     border: 1px solid salmon;
 }
+.btn {
+    width: 150px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    background: #292D32;
+    mix-blend-mode: normal;
+    box-shadow: -2px -2px 8px #474C54, 2px 2px 8px #17191C;
+    border-radius: 12px;
+}
+.btn p {
+    margin-top: -4px;
+}
 
 .footer {
     background: transparent;
@@ -282,7 +296,6 @@ footer .join-and-tweet img {
     margin: 654px 0px 0px 0px;
     margin: 5px 0px 0px 0px;
     position: absolute;
-    bottom: 0;   
     box-shadow: 50px 50px 50px 50px #24262C;
 }
 .footer .paragraph-joinus {
