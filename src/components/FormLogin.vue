@@ -1,8 +1,10 @@
 <template>
 
-    <form class="formLogin">
-        <img src="../assets/img/Sinau-Coding-1.png" alt="Logo">
-        <div class="containerlogin">
+    <div class="card">
+        <div class="card-header">
+            <img src="../assets/img/Sinau-Coding-1.png" alt="Logo">
+        </div>
+        <div class="card-body">
                 <div class="form-control">
                     <label for="username">Username</label><br>
                     <input v-model="username" type="text" name="username" id="username" placeholder="Enter Username">
@@ -17,7 +19,7 @@
                 </div>
                 <button @click="Login()" class="btn" type="button">login</button>
         </div>
-    </form>
+    </div>
     
 </template>
 

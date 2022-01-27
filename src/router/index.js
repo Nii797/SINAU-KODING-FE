@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from '../view/Home';    
 import Login from '../view/Login';
-import Logins from '../view/Logins';
 import Data from '../view/Data';
 import Homes from '../view/Homes';
 
@@ -18,11 +17,6 @@ const routes = [
         path: '/login',
         name: 'Login',
         component: Login
-    },
-    {
-        path: '/logins',
-        name: 'Logins',
-        component: Logins
     },
     {
         path: '/data',

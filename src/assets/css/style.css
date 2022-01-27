@@ -204,7 +204,7 @@ body {
 
 
 /* Footer */
-footer {
+/* footer {
     background: linear-gradient(to bottom right, #000000, #292D32 80%);
     background-blend-mode: soft-light, normal;
     width: 100%;
@@ -215,7 +215,7 @@ footer {
     bottom: 0;
 }
 footer .copyright {
-    /* background-color: white; */
+
     width: 270px;
     height: 12px;
     margin: 27px 0px 27px 55px;
@@ -230,7 +230,7 @@ footer .copyright p{
 }
 
 footer .join-and-tweet{
-    /* background-color: salmon; */
+
     width: 216px;
     height: 12px;
     margin: 20px 91px 16px 0px;
@@ -238,13 +238,12 @@ footer .join-and-tweet{
 }
 footer .join-and-tweet p {
     width: 80px;
-    /* background-color: aqua; */
+
     height: 12px;
     top: 9px;
     margin-left: 120px;
     margin-top: 3px;
     
-    /* untuk font */
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
@@ -257,7 +256,7 @@ footer .join-and-tweet img {
     height: 30px;
     margin-top: -17px;
     float: right;
-}
+} */
 
 
 /* ==================== */
@@ -265,3 +264,99 @@ footer .join-and-tweet img {
     color: white;
 }
 
+/* === bootstap ==== */
+/* .navbar{
+    background-color: #D7D7D7;
+    box-shadow: 10px 10px 10px 10px #24262C;
+}
+
+.card {
+    border: 1px solid salmon;
+}
+.collapse {
+    margin-left: 40px;
+} */
+/* .collapse .navbar-nav .nav-item .nav-link {
+    margin-left: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #D7D7D7;
+} */
+
+/* .btn {
+    width: 150px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+
+    background: #292D32;
+    mix-blend-mode: normal;
+    box-shadow: -2px -2px 8px #474C54, 2px 2px 8px #17191C;
+    border-radius: 12px;
+}
+.btn p {
+    margin-top: -4px;
+    color: #D7D7D7;
+    text-transform: capitalize;
+}
+
+.footer {
+    background: transparent;
+    width: 100%;
+    height: 66px;
+    margin: 654px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    position: absolute;
+    box-shadow: 50px 50px 50px 50px #24262C;
+}
+.footer .paragraph-joinus {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 450px;
+}
+.footer img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 516px;
+} */
+
+/* ================ Responsive ============== */
+/* @media(max-width: 320px) {
+    .collapse {
+        width: 100%;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 100%;    
+        text-align: center;
+    }
+    .navbar .collapse {
+        width: 100%; 
+        text-align: center;  
+    }
+    .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+        background-color: #683ba4;
+        width: 100%;
+        height: 10%;
+        margin-top: 20px;
+    }
+    .navbar .collapse .btn {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .jumbotron img {
+        border: 1px solid salmon;
+        display: none;
+    }
+} */

@@ -9,7 +9,7 @@
             <div class="collapse navbar-collapse mt-2" id="navbarNav">
               <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
@@ -19,7 +19,7 @@
                 </li>
               </ul>
 
-              <button class="btn rounded-pill" type="submit" style="color:#D7D7D7;">join us</button>
+              <button @click="showForm()" class="btn rounded-pill" type="submit" style="color:#D7D7D7;">join us</button>
 
             </div>
           </div>
@@ -34,34 +34,59 @@
                   pada kebutuhan industri saat ini. Materi yang ditawarkan diantaranya pemrograman website dan android
                   Lihat</p>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6" v-if="clearImages === false">
+              <!-- <div class="col-6">   -->
                 <img src="../assets/img/flatdesign 1.png" alt="Gambar">
+              </div>
+              <div class="col-lg-6" v-else>
+              <!-- <div class="col-lg-6"> -->
+                <form-login/>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- <nav class="footer bg-trasparent">
+        <!-- <div class="container"> -->
+        <footer>
           <div class="container">
-            <div class="row mt-2">
-              <div class="col-6 d-blok">
-                <p class="text-white mt-2">SINAU KODING ACADEMY &copy;</p>
+            <div class="row">
+              <div class="col">
+                <p class="d-flex justify-content-start">sinau koding academy &copy;</p>
               </div>
-              <div class="col-6 d-blok">
-                <p class="paragraph-joinus text-white mt-2 d-block">JOIN US</p>
-                <img class="position-absolute" src="../assets/img/tweet.png" alt="tweet">
+              <div class="col">
+                <p class="join d-flex justify-content-end">join us</p>
+                <img src="../assets//img/tweet.png" alt="tweet">
               </div>
             </div>
           </div>
-        </nav> -->
+        </footer>
+        <!-- </div> -->
 
     </div>
 </template>
 
 <script>
+
+import formLogin from "../components/FormLogin.vue";
+
 export default {
   
+  components: {
+    formLogin
+  },
 
+  data: function () {
+    return {
+      clearImages: false
+    }
+  },
+
+  methods: {
+    showForm: async function () {
+      this.clearImages = true
+    }    
+  }
 
 }
-</script>
+
+</script> 
