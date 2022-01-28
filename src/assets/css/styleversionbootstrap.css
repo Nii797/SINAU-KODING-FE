@@ -96,10 +96,13 @@
     background: #292D32;
     border: none;
 }
+.card .card-body .form-control label {
+    color: #D7D7D7;
+}
 
 footer {
     /* background-color: red; */
-    margin-top: 10px;
+    margin-top: -50px;
     height: 66px;
     color: white;
     box-shadow: 90px 10px 10px 10px #24262C;
@@ -205,8 +208,37 @@ footer img {
         /* display: none; */
     }
 
+    .card {
+        position: absolute;
+        width: 280px;
+        height: 370px;
+        margin-top: -200px;
+        margin-left: 5px;
+    
+        /* background: #292D32; */
+        box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+        border-radius: 12px;
+        display: none;
+    }
+    .card .card-header{
+        background: #292D32;
+    }
+    .card .card-header img {
+        margin: 20px 100px 10px 115px;
+        width: 100px;
+        height: 25px;
+        margin-left: 60px;
+    }
+    .card .card-body .form-control{
+        background: #292D32;
+        border: none;
+    }
+    .card .card-body .form-control label {
+        color: #D7D7D7;
+    }
+
     footer {
-        margin-top: 10px;
+        margin-top: 50px;
         height: 66px;
         color: white;
         bottom: 10;
