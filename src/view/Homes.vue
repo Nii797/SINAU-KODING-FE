@@ -34,12 +34,12 @@
                   pada kebutuhan industri saat ini. Materi yang ditawarkan diantaranya pemrograman website dan android
                   Lihat</p>
               </div>
-              <div class="col-lg-6" v-if="clearImages === false">
-              <!-- <div class="col-6">   -->
+              <!-- <div class="col-lg-6" v-if="clearImages === false">   -->
+              <div class="col-lg-6">
                 <img src="../assets/img/flatdesign 1.png" alt="Gambar">
               </div>
-              <div class="col-lg-6" v-else>
-              <!-- <div class="col-lg-6"> -->
+              <!-- <div class="col-lg-6" v-else> -->
+              <div class="col-lg-6">
                 <form-login/>
               </div>
             </div>

@@ -92,6 +92,10 @@
 .card .card-header img {
     margin: 20px 100px 10px 115px;
 }
+.card .card-body .form-control{
+    background: #292D32;
+    border: none;
+}
 
 footer {
     /* background-color: red; */

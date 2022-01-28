@@ -1,6 +1,6 @@
 <template>
 
-    <div class="card">
+    <div class="card border-0">
         <div class="card-header">
             <img src="../assets/img/Sinau-Coding-1.png" alt="Logo">
         </div>
