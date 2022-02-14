@@ -78,8 +78,8 @@
     height: 425px;
     left: 0px;
     top: 0px;
-    margin-top: -525px;
-    margin-left: 630px;
+    margin-top: 10px;
+    margin-left: 30px;
 
     background: #292D32;
     box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
@@ -106,6 +106,8 @@ footer {
     height: 66px;
     color: white;
     box-shadow: 90px 10px 10px 10px #24262C;
+    bottom: 0;
+    position: static;
 }
 footer .col {
     margin-left: 10px;
@@ -212,8 +214,8 @@ footer img {
         position: absolute;
         width: 280px;
         height: 370px;
-        margin-top: -200px;
-        margin-left: 5px;
+        margin-top: 30px;
+        margin-left: -2px;
     
         /* background: #292D32; */
         box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
@@ -234,6 +236,22 @@ footer img {
         border: none;
     }
     .card .card-body .form-control label {
+        width: 59px;
+        height: 14px;
+        left: 0px;
+        top: 0px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+        
+        letter-spacing: 0.04em;
+        
+        /* Primary Light */
+        
         color: #D7D7D7;
     }
 

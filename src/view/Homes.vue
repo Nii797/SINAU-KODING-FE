@@ -28,19 +28,20 @@
         <div class="container">
           <div class="jumbotron">
             <div class="row">
-              <div class="col-lg-6 col-md-12">
+              <div class="col-lg-6">
                 <h2 class="display-4">welcome to sinau koding academy</h2>
                 <p class="lead text-white">Sinau Koding adalah Program Pelatihan Programer dengan materi yang relevan
                   pada kebutuhan industri saat ini. Materi yang ditawarkan diantaranya pemrograman website dan android
                   Lihat</p>
+                <p></p>  
               </div>
-              <!-- <div class="col-lg-6" v-if="clearImages === false">   -->
-              <div class="col-lg-6">
-                <img src="../assets/img/flatdesign 1.png" alt="Gambar">
-              </div>
-              <!-- <div class="col-lg-6" v-else> -->
-              <div class="col-lg-6">
-                <form-login/>
+              <div class="col-lg-6">  
+                <div v-if="clearImages === false">
+                  <img src="../assets/img/flatdesign 1.png" alt="Gambar">
+                </div>
+                <div v-else>
+                  <form-login/>
+                </div>
               </div>
             </div>
           </div>
